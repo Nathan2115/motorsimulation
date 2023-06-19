@@ -1,3 +1,2 @@
 # MotorSimulation
-Foray into motor modeling, analysis, and control in a simulation environment. The 'notebooks' folder contains .ipynb documentation of some basic simulations I've developed
-and is more or less meant to be reference material for the actual simulation build coming soon.
+Foray into motor modeling, analysis, and control in a custom Python simulation environment. The 'notebooks' folder contains .ipynb documentation of some basic linear magnetic simulations that I used to prototype the main simulation suite, Big Brain Motor Modeling, Analysis and Control (BigMMAC). My progress on BigMMAC may be found within the titular folder, and will be updated as I figure out more stuff.
