@@ -92,19 +92,46 @@ class ConnectPMDC:
                 self.da, self.db = self.control #eventually make self.control(motorstates)
 
                 # If current simulation step is within a given PWM period, compute switch states for all inverter switches
+                
                 if self.timer < self.ndt:
-                    self.timer, self.dt_out, self.ahi = self.idealSwitchGen(self.timer, self.da, self.ndt, self.dt, self.inverter.fsw())
-                    self.alo = 1 - self.ahi
-                    self.timer_dummy, self.dt_dummy, self.bhi = self.idealSwitchGen(self.timer, self.db, self.ndt, self.dt, self.inverter.fsw())
-                    self.blo = 1 - self.bhi
+                    if self.da > self.db: # Positive Voltage/Rotation
+                        self.timer, self.dt_out, self.ahi = self.idealSwitchGen(self.timer, self.da, self.ndt, self.dt, self.inverter.fsw())
+                        self.alo = 0
+                        self.bhi = 0
+                        self.blo = 1
+                        
+                    elif self.da < self.db: # Negative voltage/rotation
+                        self.timer, self.dt_out, self.bhi = self.idealSwitchGen(self.timer, self.db, self.ndt, self.dt, self.inverter.fsw())
+                        self.blo = 0
+                        self.ahi = 0
+                        self.alo = 1
+                    else:
+                        self.ahi = 0
+                        self.bhi = 0
+                        self.alo = 0
+                        self.blo = 0
+                        self.dt_out = self.dt
                 
                 # If current simulation step is NOT within a given PWM period, start a new PWM period and compute switch states for all inverter switches
                 else:
                     self.timer = 0
-                    self.timer, self.dt_out, self.ahi = self.idealSwitchGen(self.timer, self.da, self.ndt, self.dt, self.inverter.fsw())
-                    self.alo = 1 - self.ahi
-                    self.timer_dummy, self.dt_dummy, self.bhi = self.idealSwitchGen(self.timer, self.db, self.ndt, self.dt, self.inverter.fsw())
-                    self.blo = 1 - self.bhi
+                    if self.da > self.db: # Positive Voltage/Rotation
+                        self.timer, self.dt_out, self.ahi = self.idealSwitchGen(self.timer, self.da, self.ndt, self.dt, self.inverter.fsw())
+                        self.alo = 0
+                        self.bhi = 0
+                        self.blo = 1
+                        
+                    elif self.da < self.db: # Negative voltage/rotation
+                        self.timer, self.dt_out, self.bhi = self.idealSwitchGen(self.timer, self.db, self.ndt, self.dt, self.inverter.fsw())
+                        self.blo = 0
+                        self.ahi = 0
+                        self.alo = 1
+                    else:
+                        self.ahi = 0
+                        self.bhi = 0
+                        self.alo = 0
+                        self.blo = 0
+                        self.dt_out = self.dt
 
                 # Simulate inverter output given inverter switch states
                 self.vcmd = self.inverter.on(self.ahi, self.alo, self.bhi, self.blo, self.dt_out)

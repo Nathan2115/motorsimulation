@@ -52,7 +52,7 @@ class FullBridgeIdeal:
         return self.vout
         
     def analyze(self, desiredout):
-        """Ue argument 'switchplot' to look at the PWM signals on each inverter switch or 'voutplot' to look at the inverter output voltage plot."""
+        """Use argument 'switchplot' to look at the PWM signals on each inverter switch or 'voutplot' to look at the inverter output voltage plot."""
         if desiredout == 'switchplot':
             
             fig, axs = plt.subplots(4)

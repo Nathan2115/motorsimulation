@@ -97,7 +97,7 @@ class PMDC:
 
     def analyze(self, desiredout):
         """`analyze` is a method that generates plots and print outputs for states and performance variables. It takes
-        a single string as its argument. Use `currentplot` for current plot, similarly `speedplot` or `torqueplot`. `pelec`
+        a single string as its argument. Use `currentplot` for current plot, similarly `speedplot` or `torqueplot`, or `allplots` for all three. `pelec`
         or `pmech` print steady-state power."""
 
         if desiredout == 'currentplot':
@@ -107,19 +107,9 @@ class PMDC:
             plt.ylabel('Current (A)')
             plt.grid(True)
             plt.show()
-            
-        elif desiredout == 'currentplotly':
-            fig = px.scatter(x=self.times, y=self.ias)
-            fig.update_layout(
-                title='Armatur Current vs. Time',
-                xaxis_title='Time (s)',
-                yaxis_title='Current (A)'
-            )
-
-            plot(fig, filename='currentplot.html', auto_open=True)
 
         elif desiredout == 'speedplot':
-            plt.plot(self.times, self.wrs_rpm)
+            plt.plot(self.times, self.rs_rpmw)
             plt.title('Rotor Speed vs. Time')
             plt.xlabel('Time (s)')
             plt.ylabel('Rotor Speed (RPM)')
@@ -134,6 +124,33 @@ class PMDC:
             plt.grid(True)
             plt.show()
         
+        elif desiredout == 'allplots':
+            figure, axis = plt.subplots(2, 2)
+            
+            axis[0, 0].plot(self.times, self.ias)
+            axis[0, 0].set_title('Armature Current vs. Time')
+            axis[0, 0].set_xlabel('Time (s)')
+            axis[0, 0].set_ylabel('Current (A)')
+            axis[0, 0].grid(True)
+            
+            axis[0, 1].plot(self.times, self.wrs_rpm)
+            axis[0, 1].set_title('Rotor Speed vs. Time')
+            axis[0, 1].set_xlabel('Time (s)')
+            axis[0, 1].set_ylabel('Rotor Speed (RPM)')
+            axis[0, 1].grid(True)
+            
+            axis[1, 0].plot(self.times, self.Taus)
+            axis[1, 0].set_title('Torque vs. Time')
+            axis[1, 0].set_xlabel('Time (s)')
+            axis[1, 0].set_ylabel('Torque (N-m)')
+            axis[1, 0].grid(True)
+            
+            axis[1,1].axis('off')
+
+            plt.subplots_adjust(hspace=0.5)
+
+            plt.show()
+
         elif desiredout == 'pelec':
             print("\n")
             print("Electrical Power = ", round(self.Pelec,2), "W")
