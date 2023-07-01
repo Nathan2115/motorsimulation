@@ -1,6 +1,7 @@
 import motors 
 import inverters
 import motorsimulators
+import motormath
 import numpy as np
 import time
 import matplotlib.pyplot as plt
@@ -20,7 +21,6 @@ cim_params = {
 
 ####### Controller Design ########################################################
 def controller():
-    
     return 0, 0.5
 
 ####### System Parameters ########################################################
