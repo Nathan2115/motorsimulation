@@ -2,10 +2,10 @@
 Foray into motor modeling, analysis, and control in a custom Python simulation environment. The 'notebooks' folder contains .ipynb documentation of some basic linear magnetic simulations that I used to prototype the main simulation suite, Big Brain Motor Modeling, Analysis and Control (BigMMAC). My progress on BigMMAC may be found within the titular folder, and will be updated as I figure out more stuff.
 
 ## Most recent commit progress:
-- Added `allplots` option to motor.analyze() for easier analysis of controller/motor performance
-- Fixed switch step generation for Full Bridge Ideal inverter within ConnectPMDC.simulate() to hold low side switch low (instead of PWM'ing it back to high in compliment to high side switch like it used to) 
-- Fixed some comment typos and eliminated vestigial plotly features
+- added `params2igains` method in `motormath.py` to compute current control gains
 ## To Do:
+- Develop "ideal" controller script psuedocode as would be implemented on a microcontroller
+  - Use this script to drive how BigMMAC's truth side of simulation should interface with its controller side
 - Reference must be read and updated every time controller is updated
   - Reference should be specified controller side, and capability for realtime vs predefined reference specification should be bookmarked
   - Need to bake in an auto interpolation for predefined complex time varying references to allow changing of `dt` without having to re-generate the reference table
