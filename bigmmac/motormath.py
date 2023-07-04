@@ -45,7 +45,7 @@ def rads2hz(f):
     return f/(2*np.pi)
 
 def params2igains(r, l, bw):
-    """Compute current control gains from motor armature resistance (Ohms), inductance (Henrys) and desired bandwidth (Hz)"""
+    """Compute current control gains from motor armature resistance (Ohms), inductance (Henrys) and desired bandwidth (Hz). Returns Kp, Ki"""
     kp = 2*np.pi*bw*r
     ki = 2*np.pi*bw*l
     return kp, ki

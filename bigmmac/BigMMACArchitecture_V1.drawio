@@ -1,186 +1,148 @@
-<mxfile host="app.diagrams.net" modified="2023-05-01T17:03:45.947Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="0av0oB8nLirdFSijzIZk" version="21.1.9" type="device">
-  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1114" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Lamp doesn&#39;t work" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1370" y="710" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
-          <mxGeometry y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Lamp&lt;br&gt;plugged in?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1380" y="800" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Plug in lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1530" y="820" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
-          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-12" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="Bulb&lt;br&gt;burned out?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1380" y="920" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="Repair Lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1370" y="1060" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1530" y="940" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-1" value="&lt;h1&gt;BigMMAC v.1 | Big Brain Motor Modeling, Analysis, &amp;amp; Control | Architecture&lt;/h1&gt;&lt;p&gt;Big Brain Motor Modeling, Analysis, &amp;amp; Control (BigMMAC) is a Python simulation suite that can be used for rapid development and testing of electric motor control schemes, as well as performance analysis. Version 1 integrates linear magnetic electric machine models and ideal power electronic models into an object-oriented framework for intuitive implementation.&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="50" width="1005" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sEKzlpHkbxPfSS1bcKUd-3" target="sEKzlpHkbxPfSS1bcKUd-15">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="150" y="520" />
-              <mxPoint x="515" y="520" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-3" value="motors.py&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Governing ODEs, numerical integration&lt;br&gt;&amp;amp; performance visualization&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=70;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="170" width="220" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-4" value="&lt;u&gt;class PMDC:&lt;/u&gt;&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Permanent Magnet DC Machine&lt;br&gt;&lt;u&gt;class SMPM:&lt;/u&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Surface Mount Permanent &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Magnet Machine" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sEKzlpHkbxPfSS1bcKUd-3">
-          <mxGeometry x="10" y="80" width="210" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sEKzlpHkbxPfSS1bcKUd-6" target="sEKzlpHkbxPfSS1bcKUd-15">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="390" y="520" />
-              <mxPoint x="515" y="520" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-6" value="inverters.py&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Switching logic, ideal operation (switching dynamics) and simple operation (average voltage)&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=70;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="170" width="220" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-7" value="&lt;u&gt;class FullBridgeIdeal:&lt;/u&gt;&amp;nbsp;&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Full bridge inverter, switching &lt;span style=&quot;&quot;&gt;	&lt;/span&gt;dynamics captured&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;class FullBridgeSimple:&lt;/u&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Full bridge inverter, average &lt;span style=&quot;&quot;&gt;	&lt;/span&gt;voltage&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;class ThreePhaseIdeal:&lt;/u&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;3-phase inverter, switching&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;dynamics captured&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;class ThreePhaseSimple:&lt;/u&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;3-phase inverter, average voltage&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sEKzlpHkbxPfSS1bcKUd-6">
-          <mxGeometry x="5" y="70" width="210" height="185" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sEKzlpHkbxPfSS1bcKUd-8" target="sEKzlpHkbxPfSS1bcKUd-15">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="630" y="520" />
-              <mxPoint x="515" y="520" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-8" value="simulator.py&lt;br&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Integrates motor and inverter &lt;br&gt;simulations with controller design&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=70;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="520" y="170" width="220" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-9" value="&lt;u&gt;class connect:&lt;/u&gt;&amp;nbsp;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Connects controller output to inverter input and inverter output to motor input, houses simulation loop function&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sEKzlpHkbxPfSS1bcKUd-8">
-          <mxGeometry x="5" y="80" width="210" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sEKzlpHkbxPfSS1bcKUd-13" target="sEKzlpHkbxPfSS1bcKUd-15">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="870" y="520" />
-              <mxPoint x="515" y="520" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-13" value="motormath.py&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Contains common transformations and conversions&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=70;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="760" y="170" width="220" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-14" value="&lt;u&gt;def abc2dq0:&lt;/u&gt;&amp;nbsp;&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Clarke Transform&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;def dq02abc:&lt;/u&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Inverse Clarke Transform&amp;nbsp;&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;def stat2syn:&lt;/u&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Park Transform&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;def syn2stat:&lt;/u&gt;&amp;nbsp;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Inverse Park Transform&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;def rads2hz:&lt;/u&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;rad/s to Hz&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;def hz2rads:&lt;/u&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Hz to rad/s&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;def rads2rpm:&lt;/u&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;rad/s to RPM&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;def rpm2rads:&lt;/u&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;RPM to rad/s&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sEKzlpHkbxPfSS1bcKUd-13">
-          <mxGeometry x="5" y="70" width="210" height="245" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-15" value="controllertest.py" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="380" y="560" width="270" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-30" value="&lt;u&gt;motor = Motor(params)&lt;/u&gt;&amp;nbsp;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Instantiate motor&lt;/span&gt;&lt;/blockquote&gt;&lt;u&gt;inverter = Inverter(params)&lt;/u&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Instantiate inverter&lt;/blockquote&gt;&lt;u&gt;def controller:&lt;/u&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;	&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Controller design&lt;/blockquote&gt;&lt;u&gt;system = Connect(motor, inverter, controller)&lt;/u&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Create connected system&lt;/blockquote&gt;&lt;u&gt;system.simulate(params)&lt;br&gt;&lt;/u&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Simulate system&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sEKzlpHkbxPfSS1bcKUd-15">
-          <mxGeometry x="10" y="20" width="250" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-31" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=none;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="150" width="980" height="390" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-33" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Modules&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="990" y="320" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sEKzlpHkbxPfSS1bcKUd-34" target="sEKzlpHkbxPfSS1bcKUd-35">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-34" value="Controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="150" y="965" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sEKzlpHkbxPfSS1bcKUd-35" target="sEKzlpHkbxPfSS1bcKUd-41">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-35" value="Inverter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="530" y="965" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-39" value="Switch state commands (if ideal inverter)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="965" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-40" value="Duty cycles (if simple inverter)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="310" y="995" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sEKzlpHkbxPfSS1bcKUd-41" target="sEKzlpHkbxPfSS1bcKUd-34">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="950" y="995" />
-              <mxPoint x="950" y="1115" />
-              <mxPoint x="100" y="1115" />
-              <mxPoint x="100" y="995" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-41" value="Motor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="790" y="965" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-44" value="Stationary voltages" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="650" y="965" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-46" value="State Updates" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="455" y="1115" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="sEKzlpHkbxPfSS1bcKUd-34">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="895" as="sourcePoint" />
-            <mxPoint x="200" y="825" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-48" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="849.5" y="965" as="sourcePoint" />
-            <mxPoint x="850" y="895" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-49" value="Reference Commands" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="860" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-50" value="Graphs, Perfromance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="820" y="860" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-51" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;arcSize=6;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="60" y="930" width="920" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.495;entryY=-0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sEKzlpHkbxPfSS1bcKUd-30" target="sEKzlpHkbxPfSS1bcKUd-51">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sEKzlpHkbxPfSS1bcKUd-53" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;i&gt;system = Connect(motor, inverter, controller)&lt;/i&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="270" y="1145" width="440" height="30" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+        <mxGraphModel dx="1800" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
+                <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-1" value="&lt;h1&gt;BigMMAC v.1 | Big Brain Motor Modeling, Analysis, &amp;amp; Control | Architecture&lt;/h1&gt;&lt;p&gt;Big Brain Motor Modeling, Analysis, &amp;amp; Control (BigMMAC) is a Python simulation suite that can be used for rapid development and testing of electric motor control schemes, as well as performance analysis. Version 1 integrates linear magnetic electric machine models and ideal power electronic models into an object-oriented framework for intuitive implementation.&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="20" y="50" width="1005" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sEKzlpHkbxPfSS1bcKUd-3" target="sEKzlpHkbxPfSS1bcKUd-15" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="150" y="520"/>
+                            <mxPoint x="515" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-3" value="motors.py&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Governing ODEs, numerical integration&lt;br&gt;&amp;amp; performance visualization&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=70;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="40" y="170" width="220" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-4" value="&lt;u&gt;class PMDC:&lt;/u&gt;&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Permanent Magnet DC Machine&lt;br&gt;&lt;u&gt;class SMPM:&lt;/u&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Surface Mount Permanent &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;Magnet Machine" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sEKzlpHkbxPfSS1bcKUd-3" vertex="1">
+                    <mxGeometry x="10" y="80" width="210" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sEKzlpHkbxPfSS1bcKUd-6" target="sEKzlpHkbxPfSS1bcKUd-15" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="520"/>
+                            <mxPoint x="515" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-6" value="inverters.py&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Switching logic, ideal operation (switching dynamics) and simple operation (average voltage)&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=70;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="280" y="170" width="220" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-7" value="&lt;u&gt;class FullBridgeIdeal:&lt;/u&gt;&amp;nbsp;&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Full bridge inverter, switching &lt;span style=&quot;&quot;&gt; &lt;/span&gt;dynamics captured&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;class FullBridgeSimple:&lt;/u&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt; &lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Full bridge inverter, average &lt;span style=&quot;&quot;&gt; &lt;/span&gt;voltage&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;class ThreePhaseIdeal:&lt;/u&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt; &lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;3-phase inverter, switching&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt; &lt;/span&gt;dynamics captured&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;class ThreePhaseSimple:&lt;/u&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;3-phase inverter, average voltage&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sEKzlpHkbxPfSS1bcKUd-6" vertex="1">
+                    <mxGeometry x="5" y="70" width="210" height="185" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sEKzlpHkbxPfSS1bcKUd-8" target="sEKzlpHkbxPfSS1bcKUd-15" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="630" y="520"/>
+                            <mxPoint x="515" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-8" value="simulator.py&lt;br&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Integrates motor and inverter &lt;br&gt;simulations with controller design&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=70;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="520" y="170" width="220" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-9" value="&lt;u&gt;class connect:&lt;/u&gt;&amp;nbsp;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Connects controller output to inverter input and inverter output to motor input, houses simulation loop function&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sEKzlpHkbxPfSS1bcKUd-8" vertex="1">
+                    <mxGeometry x="5" y="80" width="210" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sEKzlpHkbxPfSS1bcKUd-13" target="sEKzlpHkbxPfSS1bcKUd-15" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="870" y="520"/>
+                            <mxPoint x="515" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-13" value="motormath.py&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Contains common transformations and conversions&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=70;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="760" y="170" width="220" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-14" value="&lt;u&gt;def abc2dq0:&lt;/u&gt;&amp;nbsp;&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Clarke Transform&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;def dq02abc:&lt;/u&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt; &lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Inverse Clarke Transform&amp;nbsp;&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;def stat2syn:&lt;/u&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt; &lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Park Transform&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;def syn2stat:&lt;/u&gt;&amp;nbsp;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Inverse Park Transform&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;def rads2hz:&lt;/u&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;rad/s to Hz&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;def hz2rads:&lt;/u&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Hz to rad/s&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;def rads2rpm:&lt;/u&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;rad/s to RPM&lt;/blockquote&gt;&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;def rpm2rads:&lt;/u&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;RPM to rad/s&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sEKzlpHkbxPfSS1bcKUd-13" vertex="1">
+                    <mxGeometry x="5" y="70" width="210" height="245" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-15" value="controllertest.py" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="380" y="560" width="270" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-30" value="&lt;u&gt;motor = Motor(params)&lt;/u&gt;&amp;nbsp;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Instantiate motor&lt;/span&gt;&lt;/blockquote&gt;&lt;u&gt;inverter = Inverter(params)&lt;/u&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Instantiate inverter&lt;/blockquote&gt;&lt;u&gt;def controller:&lt;/u&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt; &lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Controller design&lt;/blockquote&gt;&lt;u&gt;system = Connect(motor, inverter, controller)&lt;/u&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Create connected system&lt;/blockquote&gt;&lt;u&gt;system.simulate(params)&lt;br&gt;&lt;/u&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Simulate system&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sEKzlpHkbxPfSS1bcKUd-15" vertex="1">
+                    <mxGeometry x="10" y="20" width="250" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-31" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=none;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="20" y="150" width="980" height="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-33" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Modules&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="990" y="320" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sEKzlpHkbxPfSS1bcKUd-34" target="sEKzlpHkbxPfSS1bcKUd-35" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-34" value="Controller" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="150" y="965" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sEKzlpHkbxPfSS1bcKUd-35" target="sEKzlpHkbxPfSS1bcKUd-41" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-35" value="Inverter" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="530" y="965" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-39" value="Switch state commands (if ideal inverter)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="280" y="965" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-40" value="Duty cycles (if simple inverter)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="310" y="995" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sEKzlpHkbxPfSS1bcKUd-41" target="sEKzlpHkbxPfSS1bcKUd-34" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="950" y="995"/>
+                            <mxPoint x="950" y="1115"/>
+                            <mxPoint x="100" y="1115"/>
+                            <mxPoint x="100" y="995"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-41" value="Motor" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="790" y="965" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-44" value="Stationary voltages" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="650" y="965" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-46" value="State Updates" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="455" y="1115" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="sEKzlpHkbxPfSS1bcKUd-34" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="210" y="895" as="sourcePoint"/>
+                        <mxPoint x="200" y="825" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-48" value="" style="endArrow=classic;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="849.5" y="965" as="sourcePoint"/>
+                        <mxPoint x="850" y="895" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-49" value="Reference Commands" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="180" y="860" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-50" value="Graphs, Perfromance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="820" y="860" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-51" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;arcSize=6;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="60" y="930" width="920" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.495;entryY=-0.023;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sEKzlpHkbxPfSS1bcKUd-30" target="sEKzlpHkbxPfSS1bcKUd-51" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="sEKzlpHkbxPfSS1bcKUd-53" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;i&gt;system = Connect(motor, inverter, controller)&lt;/i&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="270" y="1145" width="440" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="0" value="&lt;font color=&quot;#ec1313&quot; style=&quot;font-size: 36px;&quot;&gt;OUT OF DATE&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+                    <mxGeometry x="300" y="10" width="285" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>

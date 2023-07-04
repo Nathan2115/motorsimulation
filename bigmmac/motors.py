@@ -3,9 +3,6 @@ lumped parameter physics models as well as for anaylzing performance and plottin
 DC machines."""
 
 import matplotlib.pyplot as plt
-import pandas
-import plotly.express as px
-from plotly.offline import plot
 import numpy as np
 
 class PMDC:
@@ -31,7 +28,13 @@ class PMDC:
         self.wr = 0                    # Motor speed (rad/s)
         self.dwr_dt = 0                # Motor acceleration (m/s^2)
         self.ia = 0                    # Armature current (A)
+        self.theta = 0                 # Rotor position (rad)
         self.dia_dt = 0                # Armature current derivative (A/s)
+        self.states = {
+            'ia': 0,
+            'wr': 0,
+            'theta': 0
+        }
 
         ## Performance
         self.Tau = 0                 # Motor torque (N-m)
@@ -79,7 +82,14 @@ class PMDC:
         k4_ia, k4_wr = self.physics(va, self.ia + dt*k3_ia, self.wr + dt*k3_wr)
         self.ia = self.ia + dt/6*(k1_ia + 2*k2_ia + 2*k3_ia + k4_ia)
         self.wr = self.wr + dt/6*(k1_wr + 2*k2_wr + 2*k3_wr + k4_wr)
+        self.theta += dt * self.wr
         
+        self.states = {
+            'ia': self.ia,
+            'wr': self.wr,
+            'theta': self.theta,
+            }
+            
         ## Calculate performance
         self.Tau = self.kr * self.ia
         self.Pelec = va * self.ia
@@ -109,7 +119,7 @@ class PMDC:
             plt.show()
 
         elif desiredout == 'speedplot':
-            plt.plot(self.times, self.rs_rpmw)
+            plt.plot(self.times, self.wrs_rpm)
             plt.title('Rotor Speed vs. Time')
             plt.xlabel('Time (s)')
             plt.ylabel('Rotor Speed (RPM)')
@@ -160,3 +170,5 @@ class PMDC:
             print("\n")
             print("Mechanical Power = ", round(self.Pmech,2),"W")
             print("\n")
+
+        

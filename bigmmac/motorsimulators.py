@@ -4,13 +4,14 @@ DC machines."""
 
 import numpy as np
 
+
 class ConnectPMDC:
     """ `ConnectPMDC` creates a connected system of PMDC motor, full bridge inverter, and controller. `Connect` provides the `simulate()` method for system
     simulation, and also provides the `idealSwitchGen` helper function to generate PWM signals."""
-    def __init__(self, motor, inverter, control):
+    def __init__(self, motor, inverter, controller):
         self.inverter = inverter
         self.motor = motor
-        self.control = control
+        self.controller = controller
 
     def idealSwitchGen(self, timer, duty, ndt, dt, fsw):
         """The `idealSwitchGen() helper function is used to simulate PWM switching in the `FullBridgeIdeal` type inverter. The `timer` is analagous to a hardware timer that would be used
@@ -72,11 +73,10 @@ class ConnectPMDC:
             while self.simstep < self.sim_end:
 
                 # Compute control output
-                self.da, self.db = self.control #eventually make self.control(motorstates)
-
+                self.da, self.db = self.controller.control(self.dt, self.inverter.vbus) 
                 # Simulate inverter output
                 self.vcmd = self.inverter.on(self.da, self.db) 
-
+                
                 # Appy inverter output to motor and solve physics
                 self.motor.applyVoltage(self.vcmd, self.dt)
 
@@ -89,7 +89,7 @@ class ConnectPMDC:
             while self.simstep < self.sim_end:
 
                 # Compute control output
-                self.da, self.db = self.control #eventually make self.control(motorstates)
+                self.da, self.db = self.controller.control(self.dt, self.inverter.vbus) #eventually make self.control(motorstates)
 
                 # If current simulation step is within a given PWM period, compute switch states for all inverter switches
                 

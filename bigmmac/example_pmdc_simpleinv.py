@@ -1,37 +1,71 @@
 import motors
 import inverters
 import motorsimulators
+import motormath
+import motorparams
+import commands
+import time
 import numpy as np
 import matplotlib.pyplot as plt
 plt.style.use('rose-pine')
 
-####### Motor Parameters #########################################################
-cim_params = {
-    'kr': 0.0185,       # Torque/back-EMF constant (N-m/A) or (V-s/rad)
-    'Ra': 0.091,        # Armature resistance (ohm)
-    'La': 59e-6,        # Armature inductance (H)
-    'Jr': 0.000075,     # Motor inertia (kg-m^2)
-    'B': 9e-5,          # Motor damping coefficient (N-m-s/rad)
-    'Tl': 0,            # Load torque
-    'Tf': 0.05          # Dry friction torque
-}
+start_time = time.time()
 
-####### Controller Design ########################################################
-def controller():
-    return 0.5, 0
+####### System Parameters ###################################################################
 
-####### System Parameters ########################################################
 vbus = 12
-dt = 1e-6
+dt = 1e-5
 fsw = 0
+current_pi_bw = 500
+
+####### System Initialization ###############################################################
+cim = motors.PMDC(motorparams.cim)
+hbridge = inverters.FullBridgeSimple(vbus)
+input = commands.Step(5)
+
+####### Controller Design ###################################################################
+class currentController:
+    def __init__(self, params):
+        self.kp, self.ki = motormath.params2igains(params['Ra'], params['La'], current_pi_bw)
+        self.error = 0
+        self.error_integral = 0
+        self.previous_error = 0
+
+    def control(self, vbus, dt):
+        ia = cim.states['ia']
+        ref = input.get()
+        dt = dt
+        vbus = vbus
+
+        self.error = ref - ia
+        self.error_integral += self.error * dt
+
+        v_p_i = (self.kp * self.error) + (self.ki * self.error_integral)
+        duty = v_p_i/vbus
+
+        if duty > 1:
+            duty = 1
+        elif duty < -1:
+            duty = -1
+
+        if duty < 0:
+            da = 0
+            db = duty
+        elif duty > 0:
+            da = duty
+            db = 0
+
+        return da, db
+
+controller = currentController(motorparams.cim)
 
 ####### SIMULATION ###############################################################
-cim = motors.PMDC(cim_params)
-hbridge = inverters.FullBridgeSimple(vbus)
 
-system = motorsimulators.ConnectPMDC(cim, hbridge, controller())
+system = motorsimulators.ConnectPMDC(cim, hbridge, controller)
 
-system.simulate(dt,0.5)
+system.simulate(dt,10)
+
+print("--- %s seconds ---" % (time.time() - start_time))
 
 cim.analyze('speedplot')
 
